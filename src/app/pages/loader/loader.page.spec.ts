@@ -31,7 +31,7 @@ describe('LoaderPage', () => {
 
     tick(1500);
 
-    expect(router.navigate).toHaveBeenCalledWith(['login']);
+    expect(router.navigate).toHaveBeenCalledWith(['home']);
   }))
 
 });

@@ -24,13 +24,6 @@ describe('HomePage', () => {
     component = fixture.componentInstance;
   }));
 
-  it('should go to pickup-calls on see all', () => {
-    spyOn(router, 'navigate');
-
-    component.goToPickupCalls();
-
-    expect(router.navigate).toHaveBeenCalledWith(['pickup-calls']);
-  })
 
   it('should go to new pickup call on create pickup call', () => {
     spyOn(router, 'navigate');

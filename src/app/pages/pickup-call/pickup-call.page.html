@@ -3,9 +3,34 @@
     <ion-buttons slot="start">
       <ion-back-button text=""></ion-back-button>
     </ion-buttons>
-    <ion-title>Cadastrar Item</ion-title>
+    <ion-title>Inserir atributos dos mecânicos</ion-title>
   </ion-toolbar>
 </ion-header>
-  
+<ion-card-content>
+  <ion-item>
+    <ion-label position="floating">Nome</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Especialidades</ion-label>
+    <ion-input type="text" placeholder="Insira por #. Exemplo: #Motor #Cambio"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Rua</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Numero</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Bairro</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Cidade</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+</ion-card-content>
   <ion-button size="full" color="primary" (click)="newPickupCall()">Enviar</ion-button>
 
